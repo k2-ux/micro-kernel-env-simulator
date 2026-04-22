@@ -9,6 +9,33 @@ The project is structured as a hands-on tour of core C concepts: pointers and
 pointer arithmetic, structs and unions, bitwise operations, dynamic memory
 allocation, function pointers, and the preprocessor.
 
+## Getting Started
+
+### Cloning the Repository
+
+```bash
+git clone https://github.com/k2-ux/micro-kernel-env-simulator.git
+cd micro-kernel-env-simulator
+```
+
+### Prerequisites
+
+- **Linux / macOS** — any POSIX shell environment works
+- `gcc` (GCC 7+ or any C11-compliant compiler such as `clang`)
+- `make`
+
+Install on Debian/Ubuntu:
+
+```bash
+sudo apt update && sudo apt install -y gcc make
+```
+
+Install on macOS (via Homebrew):
+
+```bash
+brew install gcc make
+```
+
 ---
 
 ## Building
